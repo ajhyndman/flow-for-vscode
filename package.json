@@ -1,9 +1,9 @@
 {
-  "name": "flow-for-vscode",
+  "name": "flow-for-vscode-temp",
   "version": "0.2.0",
-  "publisher": "flowtype",
+  "publisher": "ajhyndman",
   "description": "Flow support for VS Code",
-  "displayName": "Flow Language Support",
+  "displayName": "Flow Language Support (READ ME)",
   "engines": {
     "vscode": "1.5.x"
   },

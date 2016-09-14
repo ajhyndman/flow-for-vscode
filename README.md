@@ -2,35 +2,18 @@
 
 This extension adds [Flow](http://flowtype.org) support for VS Code. Flow is a static type checker, designed to find type errors in JavaScript programs.
 
-## Installation
+## Which Flow Extension Should I Use?
 
-Follow the [instructions](https://code.visualstudio.com/docs/editor/extension-gallery) for VS Code extension installation.
+### This Extension
 
-## Setup
+This extension is a direct clone of the official flow-team project, published [with permission](https://github.com/flowtype/flow-for-vscode/issues/25), until such time as the official extension is republished.
 
-* Flow is only supported on Mac and Linux, follow [flowtype.org](http://flowtype.org/docs/getting-started.html#_) to get started
-* You need a `.flowconfig` in your workspace to enable the flow features
-* Make sure you are able to run the `flow` command from the command line
-* Set workspace preference with `"javascript.validate.enable": false`.
+*Please be aware that this extension will likely be unpublished from the marketplace as soon as that takes place!*
 
-## Features
+### Flow Language Support
 
-* Syntax Coloring
-* IntelliSense
-* Go to Definition / Peek Definition
-* Diagnostics (Errors, Warnings)
+The official flow-team-supported extension is [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode).  It is built directly upon and maintained in line with Nuclide code (Facebook's in-house js/flow IDE).  Unfortunately, while the project is still being actively maintained, updates have not been published to the VS Code extension marketplace since version 0.0.2.
 
-## Known Issues
+### vscode-flow
 
-* You should set workspace preference to disable default syntax validation from Visual Studio Code: `"javascript.validate.enable": false`.
-
-## About
-
-This plugin is built on top of [Nuclide](https://github.com/facebook/nuclide)'s Flow support, the [nuclide-flow-base](https://github.com/facebook/nuclide/tree/master/pkg/nuclide/flow-base) npm package.
-
-## Contributing
-
-* please refer to [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## License
-[See here](LICENSE)
+[vscode-flow](https://marketplace.visualstudio.com/items?itemName=rtorr.vscode-flow) is a third-party extension under active development built completely independently of Nuclide.
